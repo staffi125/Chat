@@ -8,7 +8,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2AB4FE;" stylesheets="@../../../styles.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chat.inputController">
     <children>
-        <AnchorPane layoutY="96.0" prefHeight="306.0" prefWidth="700.0" style="-fx-background-color: #262626;" stylesheets="@../../../styles.css">
+        <AnchorPane layoutY="96.0" prefHeight="306.0" prefWidth="700.0" style="-fx-background-color: #262626;" stylesheets="@../../../styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="96.0">
             <children>
                 <TextField fx:id="Name_field" layoutX="193.0" layoutY="130.0" prefHeight="46.0" prefWidth="326.0" promptText="Name" style="-fx-background-radius: 5;">
                     <font>
