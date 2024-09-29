@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('fonts/Orbitron-Regular.ttf');
+}
+
+.label {
+    -fx-font-family: 'Orbitron';
+}
+
