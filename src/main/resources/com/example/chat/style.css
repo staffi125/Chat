@@ -1,0 +1,66 @@
+/* Загальний фон чату */
+.chat-area {
+    -fx-background-color: #ffffff; /* Колір замість var(--background-color) */
+}
+
+/* Стиль заголовку чату */
+.header {
+    -fx-background-color: #3b5998; /* Колір замість var(--primary-color) */
+    -fx-padding: 10px;
+}
+
+.chat-title {
+    -fx-text-fill: #f5f6fa; /* Колір замість var(--secondary-color) */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Ліва панель: контакти та пошук */
+.sidebar {
+    -fx-background-color: #3b5998; /* Колір замість var(--primary-color) */
+    -fx-padding: 10px;
+}
+
+.search-bar {
+    -fx-background-color: #f0f0f0; /* Колір замість var(--input-background-color) */
+    -fx-prompt-text-fill: #333; /* Колір замість var(--text-color) */
+    -fx-text-fill: #333; /* Колір замість var(--text-color) */
+}
+
+.user-list {
+    -fx-background-color: #ffffff; /* Колір замість var(--background-color) */
+    -fx-border-color: #dddddd; /* Колір замість var(--scroll-color) */
+    -fx-border-width: 1px;
+}
+
+/* Поле для вводу повідомлень */
+.input-area {
+    -fx-background-color: #f0f0f0; /* Колір замість var(--input-background-color) */
+    -fx-padding: 10px;
+}
+
+.message-input {
+    -fx-background-color: #f0f0f0; /* Колір замість var(--input-background-color) */
+    -fx-border-color: #dddddd; /* Колір замість var(--scroll-color) */
+    -fx-prompt-text-fill: #333; /* Колір замість var(--text-color) */
+}
+
+/* Кнопка відправки повідомлень */
+.send-button {
+    -fx-background-color: #4CAF50; /* Колір замість var(--button-color) */
+    -fx-text-fill: white;
+}
+
+.send-button:hover {
+    -fx-background-color: #45a049; /* Колір замість var(--button-hover-color) */
+}
+
+/* Область для повідомлень */
+.chat-scroll {
+    -fx-background-color: #ffffff; /* Колір замість var(--background-color) */
+    -fx-border-color: #dddddd; /* Колір замість var(--scroll-color) */
+}
+
+.message-box {
+    -fx-background-color: #ffffff; /* Колір замість var(--background-color) */
+}
