@@ -1,9 +1,27 @@
 @font-face {
-    font-family: 'Orbitron';
-    src: url('fonts/Orbitron-Regular.ttf');
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-VariableFont_wght.ttf');
 }
 
 .label {
-    -fx-font-family: 'Orbitron';
+    -fx-font-family: 'Nunito';
 }
+
+/* Заокруглені кути для кнопки */
+#LoginButton, #Accept_Button, #Close_Button {
+    -fx-background-color: #262626;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;  /* Заокруглення кутів */
+    -fx-padding: 10;
+}
+
+/* Заокруглені кути для текстових полів */
+#Name_field, #Password_field, #Gmail_field {
+    -fx-background-radius: 10;  /* Заокруглення кутів */
+    -fx-border-radius: 10;      /* Заокруглення кутів для рамки */
+    -fx-padding: 5;
+}
+
+
+
 

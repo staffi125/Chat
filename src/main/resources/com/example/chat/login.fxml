@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chat.loginController">
+   <left>
+      <AnchorPane prefHeight="438.0" prefWidth="326.0" style="-fx-background-color: #2ab4fe;" stylesheets="@../../../styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="68.0" fitWidth="320.0" layoutX="3.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/_CHAT.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="286.0" fitWidth="286.0" layoutX="20.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/Logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="416.0" prefWidth="374.0" stylesheets="@../../../styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="73.0" layoutY="14.0" prefHeight="71.0" prefWidth="213.0" text=" Login form">
+               <font>
+                  <Font name="Calibri Bold" size="37.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="118.0" prefHeight="34.0" prefWidth="117.0" text="UserName" textFill="#5e5e5e">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Name_field" layoutX="55.0" layoutY="152.0" opacity="0.66" prefHeight="42.0" prefWidth="250.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <ColorAdjust hue="-0.06" />
+               </effect></TextField>
+            <TextField fx:id="Password_field" layoutX="54.0" layoutY="236.0" opacity="0.66" prefHeight="42.0" prefWidth="250.0">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <Label layoutX="53.0" layoutY="202.0" prefHeight="34.0" prefWidth="117.0" text="Password" textFill="#636262">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="LoginButton" layoutX="81.0" layoutY="323.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="197.0" style="-fx-background-color: #000000;" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="83.0" layoutY="383.0" prefHeight="24.0" prefWidth="127.0" text="Don't have an account?" />
+            <Button fx:id="signUpButton" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="211.0" layoutY="382.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="60.0" scaleShape="false" style="-fx-background-color: #F2F2F2;" text="Sign up" textFill="#2ab4fe" />
+            <AnchorPane layoutX="112.0" layoutY="81.0" prefHeight="8.0" prefWidth="136.0" style="-fx-background-color: #2ab4fe;" />
+            <CheckBox layoutX="55.0" layoutY="285.0" mnemonicParsing="false" text="Remember me" />
+            <Button layoutX="193.0" layoutY="281.0" mnemonicParsing="false" style="-fx-background-color: #F2F2F2;" text="Forgot password?" textFill="#636363" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
